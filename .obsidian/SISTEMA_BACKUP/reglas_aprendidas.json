@@ -1,0 +1,219 @@
+[
+  {
+    "patron": {
+      "source": "hola|buenas|saludos",
+      "flags": "i"
+    },
+    "accion": "saludar",
+    "tipo": "texto"
+  },
+  {
+    "patron": {
+      "source": "como estas|qué tal",
+      "flags": "i"
+    },
+    "accion": "estado",
+    "tipo": "texto"
+  },
+  {
+    "patron": {
+      "source": "quien eres|qué eres",
+      "flags": "i"
+    },
+    "accion": "identidad",
+    "tipo": "texto"
+  },
+  {
+    "patron": {
+      "source": "que puedes hacer|capacidades",
+      "flags": "i"
+    },
+    "accion": "ayuda",
+    "tipo": "texto"
+  },
+  {
+    "patron": {
+      "source": "mover mouse a (\\d+)[ ,]+(\\d+)",
+      "flags": "i"
+    },
+    "accion": "moverMouse",
+    "tipo": "comando",
+    "params": [
+      "x",
+      "y"
+    ]
+  },
+  {
+    "patron": {
+      "source": "click|haz click",
+      "flags": "i"
+    },
+    "accion": "hacerClick",
+    "tipo": "comando",
+    "params": []
+  },
+  {
+    "patron": {
+      "source": "escribir (.+)",
+      "flags": "i"
+    },
+    "accion": "escribir",
+    "tipo": "comando",
+    "params": [
+      "texto"
+    ]
+  },
+  {
+    "patron": {
+      "source": "presiona (enter|tab|escape|space|delete|backspace|up|down|left|right)",
+      "flags": "i"
+    },
+    "accion": "presionarTecla",
+    "tipo": "comando",
+    "params": [
+      "tecla"
+    ]
+  },
+  {
+    "patron": {
+      "source": "abrir (bloc de notas|notepad|calculadora|calc|chrome|edge|firefox|explorador|cmd|terminal|powershell)",
+      "flags": "i"
+    },
+    "accion": "abrirPrograma",
+    "tipo": "comando",
+    "params": [
+      "programa"
+    ]
+  },
+  {
+    "patron": {
+      "source": "cerrar ventana|cierra ventana",
+      "flags": "i"
+    },
+    "accion": "cerrarVentana",
+    "tipo": "comando",
+    "params": []
+  },
+  {
+    "patron": {
+      "source": "cambiar ventana|siguiente ventana",
+      "flags": "i"
+    },
+    "accion": "cambiarVentana",
+    "tipo": "comando",
+    "params": []
+  },
+  {
+    "patron": {
+      "source": "buscar (.+)",
+      "flags": "i"
+    },
+    "accion": "buscarWeb",
+    "tipo": "comando",
+    "params": [
+      "query"
+    ]
+  },
+  {
+    "patron": {
+      "source": "navegar a (.+)",
+      "flags": "i"
+    },
+    "accion": "navegarWeb",
+    "tipo": "comando",
+    "params": [
+      "url"
+    ]
+  },
+  {
+    "patron": {
+      "source": "listar archivos en (.+)",
+      "flags": "i"
+    },
+    "accion": "listarArchivos",
+    "tipo": "comando",
+    "params": [
+      "ruta"
+    ]
+  },
+  {
+    "patron": {
+      "source": "listar archivos",
+      "flags": "i"
+    },
+    "accion": "listarArchivos",
+    "tipo": "comando",
+    "params": [
+      "."
+    ]
+  },
+  {
+    "patron": {
+      "source": "crear carpeta (.+)",
+      "flags": "i"
+    },
+    "accion": "crearCarpeta",
+    "tipo": "comando",
+    "params": [
+      "ruta"
+    ]
+  },
+  {
+    "patron": {
+      "source": "npm (install|start|test|run|init|update|list) ?(.*)",
+      "flags": "i"
+    },
+    "accion": "ejecutarNPM",
+    "tipo": "comando",
+    "params": [
+      "comando",
+      "args"
+    ]
+  },
+  {
+    "patron": {
+      "source": "qué aplicación está abierta|que ventana activa|que programa esta corriendo",
+      "flags": "i"
+    },
+    "accion": "queAplicacionEstaAbierta",
+    "tipo": "comando",
+    "params": []
+  },
+  {
+    "patron": {
+      "source": "estado|reporte",
+      "flags": "i"
+    },
+    "accion": "reporteEstado",
+    "tipo": "texto"
+  },
+  {
+    "patron": {
+      "source": "reglas|que sabes|conocimiento",
+      "flags": "i"
+    },
+    "accion": "mostrarReglas",
+    "tipo": "texto"
+  },
+  {
+    "patron": {
+      "source": "aprender:\\s*(.+?)\\s*→\\s*(.+)",
+      "flags": "i"
+    },
+    "accion": "aprenderRegla",
+    "tipo": "sistema",
+    "params": [
+      "patron",
+      "respuesta"
+    ]
+  },
+  {
+    "patron": {
+      "source": "salir|apagar|terminar",
+      "flags": "i"
+    },
+    "accion": "salir",
+    "tipo": "sistema",
+    "params": []
+  }
+]

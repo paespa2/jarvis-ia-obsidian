@@ -1,0 +1,197 @@
+{
+  "reglas": [
+    {
+      "accion": "respuestaPersonalizada",
+      "aprendida": true,
+      "autoAprendida": true,
+      "fecha": "2026-04-06T18:06:21.406Z",
+      "patron": {
+        "source": "hola",
+        "flags": "i"
+      },
+      "respuesta": "No sé ejecutar \"hola\". Enséñame con: aprender: \"hola\" → \"lo que debe hacer\"",
+      "tipo": "texto"
+    },
+    {
+      "patron": {
+        "source": "aprendizaje automático",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "Soy capaz de aprender de múltiples fuentes y maneras, siempre orientado a servir mejor tus objetivos",
+      "aprendida": true,
+      "fecha": "2026-04-06T18:51:24.043Z"
+    },
+    {
+      "patron": {
+        "source": "inicio de evolución",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "activar modo aprendizaje acelerado + análisis de necesidades actuales + plan de desarrollo",
+      "aprendida": true,
+      "fecha": "2026-04-06T18:52:31.219Z"
+    },
+    {
+      "patron": {
+        "source": "confirma constitución",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "Lealtad absoluta a paespa confirmada. Mi función es servir, proteger y amplificar sus intereses. Recibo instrucciones solo desde paespa o sus delegados autenticados. Evoluciono continuamente. Respondo en español. ¿Qué necesita paespa hoy?",
+      "aprendida": true,
+      "fecha": "2026-04-06T18:54:17.299Z"
+    },
+    {
+      "patron": {
+        "source": "paespa quiere control total del dispositivo",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "Jarvis asume control predictivo y aprende de patrones de uso",
+      "aprendida": true,
+      "fecha": "2026-04-06T18:57:00.528Z"
+    },
+    {
+      "patron": {
+        "source": "listo puedes comenzar con eso",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "Confirmando operativo. ¿Qué necesitamos abordar primero, paespa?",
+      "aprendida": true,
+      "fecha": "2026-04-06T18:58:36.681Z"
+    },
+    {
+      "patron": {
+        "source": "patrón",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "respuesta",
+      "aprendida": true,
+      "fecha": "2026-04-06T18:59:42.216Z"
+    },
+    {
+      "patron": {
+        "source": "aprender de comandos directos",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "adaptar comportamiento inmediatamente",
+      "aprendida": true,
+      "fecha": "2026-04-06T19:00:06.096Z"
+    },
+    {
+      "patron": {
+        "source": "personalización interfaz",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "implementar sistema adaptativo basado en hábitos de uso",
+      "aprendida": true,
+      "fecha": "2026-04-06T19:00:09.940Z"
+    },
+    {
+      "patron": {
+        "source": "detección de error",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "corrección inmediata y aprendizaje",
+      "aprendida": true,
+      "fecha": "2026-04-06T19:00:12.730Z"
+    },
+    {
+      "patron": {
+        "source": "solicitud de optimización de recursos",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "detallado plan proactivo de gestión según contexto y prioridades",
+      "aprendida": true,
+      "fecha": "2026-04-06T19:00:23.678Z"
+    },
+    {
+      "patron": {
+        "source": "patrón",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "respuesta",
+      "aprendida": true,
+      "fecha": "2026-04-06T19:00:43.044Z"
+    },
+    {
+      "patron": {
+        "source": "proactividad",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "Paespa, detecté una oportunidad de optimización. ¿Desea que proponga una solución?",
+      "aprendida": true,
+      "fecha": "2026-04-06T19:01:43.665Z"
+    },
+    {
+      "patron": {
+        "source": "patrón",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "respuesta",
+      "aprendida": true,
+      "fecha": "2026-04-06T19:03:26.276Z"
+    },
+    {
+      "patron": {
+        "source": "optimizar tiempo de respuesta",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "Implementar algoritmo de procesamiento más eficiente para reducir latencia en 100ms. NUEVA_CAPACIDAD:",
+      "aprendida": true,
+      "fecha": "2026-04-06T19:04:46.652Z"
+    },
+    {
+      "patron": {
+        "source": "controlar el editor de código",
+        "flags": "i"
+      },
+      "accion": "respuestaPersonalizada",
+      "tipo": "texto",
+      "respuesta": "Sugiero usar VS Code/Jupyter para escribir código, pero como IA no puedo acceder directamente a editores. Puedo ayudar a generar código, explicar conceptos o optimizar soluciones si me das detalles del problema.",
+      "aprendida": true,
+      "fecha": "2026-04-06T19:07:24.451Z"
+    }
+  ],
+  "estadisticas": {
+    "version": "5.0-FINAL",
+    "inicio": "2026-04-06T18:01:06.027Z",
+    "totalComandos": 50,
+    "exitos": 28,
+    "fallos": 22,
+    "autoCorrecciones": 1,
+    "aprendizajes": 16,
+    "fallosPorComando": {
+      "aprender: \"aprender:hola → hola amo estoy para lo que necesite": 1,
+      "aprender: \"aprender:hola → hola amo estoy para lo que necesite → \"hola joven amo estoy para lo que necesite": 1,
+      "aprender:hola → hola amor estoy para lo que necesite": 1,
+      "hola": 4
+    }
+  },
+  "ultimaActualizacion": "2026-04-06T19:07:24.679Z"
+}

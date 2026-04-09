@@ -1,0 +1,1 @@
+const url = `http://api.openweathermap.org/data/2.5/weather?q=Bogota&appid=1234567890abcdef&units=metric`;

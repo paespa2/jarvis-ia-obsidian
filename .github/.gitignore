@@ -1,0 +1,6 @@
+node_modules/
+.env
+.obsidian/
+sandbox/
+logs/TEST_*.md
+*.log

@@ -1,0 +1,2 @@
+# 📜 REGISTRO
+Logros sincronizados manualmente.
