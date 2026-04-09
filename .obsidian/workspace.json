@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "d2401ea513d21b0a",
+    "id": "ebcce9b41cd4225a",
     "type": "split",
     "children": [
       {
-        "id": "11a4169a98df66aa",
+        "id": "e321ced57486a322",
         "type": "tabs",
         "children": [
           {
-            "id": "477995aac14e2176",
+            "id": "55f2b5c4053deeed",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -23,20 +23,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ca5fbc5240b20414",
+    "id": "0a5d889a793ca0b6",
     "type": "split",
     "children": [
       {
-        "id": "65999b3f0de268cb",
+        "id": "8ebfe19a9be5136d",
         "type": "tabs",
         "children": [
           {
-            "id": "c1ac932e34f1be6c",
+            "id": "47c6b99a6b718b98",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "65a559d80c2b9277",
+            "id": "c691ca2f9c61133e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "b36640eb1f91fa29",
+            "id": "0171b8d369e1f752",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "7ca8df0c625fe943",
+    "id": "5b4234d969e8f770",
     "type": "split",
     "children": [
       {
-        "id": "bfc2e27ebec34f70",
+        "id": "5f469725151572ca",
         "type": "tabs",
         "children": [
           {
-            "id": "d78cf7ed64bcd1af",
+            "id": "d947dff5a4d05b03",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "e91c5e87698c81ac",
+            "id": "0220a257dd0c3b39",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -116,7 +116,7 @@
             }
           },
           {
-            "id": "d6aee857cd7d3b5b",
+            "id": "65f97b4f1e724a66",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,7 +131,7 @@
             }
           },
           {
-            "id": "cf697f030dac064b",
+            "id": "bdca2aa1d0379318",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -145,7 +145,7 @@
             }
           },
           {
-            "id": "0fa29cb9f86bdeae",
+            "id": "75e9eb048ea23ad9",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -176,19 +176,20 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "477995aac14e2176",
+  "active": "55f2b5c4053deeed",
   "lastOpenFiles": [
-    "CONCIENCIA/MEMORIA_RECIENTE.md",
-    "logs/OBJETIVOS.md",
-    "CONCIENCIA/evidencias_evolucion.md",
-    "CONCIENCIA/CONSTITUTION.md",
-    "CONCIENCIA/SOUL.md",
-    "CONCIENCIA",
-    "logs/crypto.json",
-    "logs/[JARVIS] Registro de Conciencia.md",
-    "logs/Cerebro_Investigacion.md",
-    "logs/Auditoria.md",
-    "logs",
-    "Sin nombre"
+    "obsidian/CONCIENCIA/SOUL.md",
+    "obsidian/CONCIENCIA/MEMORIA_RECIENTE.md",
+    "obsidian/CONCIENCIA/KNOWLEDGE_BASE.json",
+    "obsidian/CONCIENCIA/jarvis_dataset.jsonl",
+    "obsidian/CONCIENCIA/evidencias_evolucion.md",
+    "obsidian/CONCIENCIA/CONSTITUTION.md",
+    "obsidian/CONCIENCIA",
+    "obsidian/logs/[JARVIS] Registro de Conciencia.md",
+    "obsidian/logs/OBJETIVOS.md",
+    "obsidian/logs/crypto.json",
+    "obsidian/logs/Cerebro_Investigacion.md",
+    "obsidian/logs/Auditoria.md",
+    "obsidian/logs"
   ]
 }
